@@ -1,0 +1,142 @@
+@media (max-width: 1199.98px) {
+  .custom-umbrella-hero__content h1 {
+    font-size: 68px;
+  }
+
+  .custom-umbrella-section-heading,
+  .custom-umbrella-intro__content h2 {
+    font-size: 44px;
+  }
+
+  .custom-umbrella-cta__content h2 {
+    font-size: 48px;
+  }
+
+  .custom-umbrella-cta__location {
+    font-size: 18px;
+  }
+
+  .custom-umbrella-footer__items {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .custom-umbrella-brands__cards {
+    max-width: 500px;
+  }
+
+  .custom-umbrella-section-heading,
+  .custom-umbrella-intro__content h2 {
+    font-size: 40px;
+  }
+
+  .custom-umbrella-founder__image {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .custom-umbrella-founder__content {
+    padding-left: 0;
+  }
+
+  .custom-umbrella-standard__list {
+    padding-left: 0;
+  }
+
+  .custom-umbrella-footer__items {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .custom-umbrella-hero__content h1 {
+    font-size: 38px;
+  }
+
+  .custom-umbrella-hero__content p {
+    font-size: 18px;
+  }
+
+  .custom-umbrella-btns {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .custom-umbrella-btn {
+    width: 100%;
+    max-width: 310px;
+    padding: 0 20px;
+    font-size: 14px;
+    height: 52px;
+  }
+
+  .custom-umbrella-section-heading,
+  .custom-umbrella-intro__content h2 {
+    font-size: 30px;
+  }
+
+  .custom-umbrella-brands__card {
+    padding: 44px 28px;
+  }
+
+  .custom-umbrella-cta .custom-umbrella-btns {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+  }
+
+  .custom-umbrella-cta .custom-umbrella-btns .custom-umbrella-btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .custom-umbrella-cta__contact {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .custom-umbrella-cta__contact a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .custom-umbrella-cta__contact a::after {
+    display: none;
+  }
+
+  .custom-umbrella-cta__location {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .custom-umbrella-cta__content h2 {
+    font-size: 40px;
+  }
+
+  .custom-umbrella-footer__logo {
+    font-size: 26px;
+  }
+
+  .custom-umbrella-footer__copyrights a {
+    font-size: 18px;
+  }
+
+  .custom-umbrella-cta {
+    padding: 80px 0;
+  }
+
+  .custom-umbrella-standard__list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    margin-top: 40px;
+  }
+
+  .custom-umbrella-brands__cards {
+    margin-top: 40px;
+  }
+}
