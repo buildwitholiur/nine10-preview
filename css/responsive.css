@@ -1,6 +1,6 @@
 @media (max-width: 1199.98px) {
   .custom-umbrella-hero__content h1 {
-    font-size: 68px;
+    font-size: 64px;
   }
 
   .custom-umbrella-section-heading,
@@ -44,7 +44,7 @@
     padding-left: 0;
   }
 
-  .custom-umbrella-standard__list {
+  .custom-umbrella-list {
     padding-left: 0;
   }
 
@@ -52,11 +52,25 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .custom-umbrella-list-items {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .custom-umbrella-list-items,
+  .custom-umbrella-list--standard {
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 767.98px) {
+  body {
+    font-size: 16px;
+  }
+
   .custom-umbrella-hero__content h1 {
-    font-size: 38px;
+    font-size: 32px;
   }
 
   .custom-umbrella-hero__content p {
@@ -66,6 +80,7 @@
   .custom-umbrella-btns {
     flex-direction: column;
     gap: 12px;
+    margin-top: 30px;
   }
 
   .custom-umbrella-btn {
@@ -73,6 +88,7 @@
     max-width: 310px;
     padding: 0 20px;
     font-size: 14px;
+    line-height: 1.4;
     height: 52px;
   }
 
@@ -130,13 +146,25 @@
     padding: 80px 0;
   }
 
-  .custom-umbrella-standard__list {
+  .custom-umbrella-list {
     grid-template-columns: repeat(1, 1fr);
     gap: 16px;
-    margin-top: 40px;
+    margin-top: 26px;
+  }
+
+  .custom-umbrella-list-items {
+    gap: 50px;
   }
 
   .custom-umbrella-brands__cards {
     margin-top: 40px;
+  }
+
+  .custom-umbrella-brands__lists li img {
+    height: 25px;
+  }
+
+  .custom-umbrella-descs {
+    margin-top: 20px;
   }
 }
