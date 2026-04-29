@@ -568,14 +568,14 @@ body {
 .custom-umbrella-footer__brands {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   margin-top: 40px;
 }
 
 .custom-umbrella-footer__brand {
   display: block;
   width: fit-content;
-  height: 100px;
+  height: 80px;
 }
 
 .custom-umbrella-footer__contact h3 {
