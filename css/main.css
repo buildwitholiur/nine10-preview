@@ -55,7 +55,7 @@ svg {
 
 /* 
 
-font-family: "Playfair Display", serif;
+  font-family: "Josefin Sans", sans-serif;
 font-family: "Lato", sans-serif;
 
 */
@@ -66,7 +66,6 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: "Playfair Display", serif; */
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   font-size: 44px;
@@ -343,49 +342,6 @@ body {
 
 /* Brands Area */
 
-/* Property Owner Area */
-.custom-umbrella-property {
-  padding: 80px 0;
-  background: #123744;
-}
-
-.custom-umbrella-property__content {
-  text-align: center;
-  width: 100%;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.custom-umbrella-property__content h2 {
-  color: #fff;
-}
-
-.custom-umbrella-property__content p {
-  color: rgba(255, 255, 255, 0.65);
-  margin-top: 20px;
-}
-
-.custom-umbrella-section-heading-area {
-  max-width: 1000px;
-}
-
-.custom-umbrella-list-area h3 {
-  color: #fff;
-  font-size: 18px;
-  text-align: left;
-  margin-bottom: 16px;
-}
-
-.custom-umbrella-list-items {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 80px;
-  margin-top: 60px;
-}
-
-/* Property Owner Area */
-
 /* Founder Area */
 .custom-umbrella-founder {
   padding: 80px 0;
@@ -480,15 +436,6 @@ body {
 }
 
 /* NINE10 Standard Area */
-
-/* Booking Area */
-.custom-umbrella-intro--booking .custom-umbrella-btn {
-  margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Booking Area */
 
 /* CTA Area */
 .custom-umbrella-cta {
@@ -585,17 +532,27 @@ body {
   background: #123744;
 }
 
+.custom-umbrella-footer .container {
+  max-width: 1140px;
+}
+
 .custom-umbrella-footer__logo {
+  width: fit-content;
+  height: 100px;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.custom-umbrella-footer__logo-text {
   display: inline-block;
-  /* font-family: "Playfair Display", serif; */
   font-family: "Josefin Sans", sans-serif;
   color: #fff;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 1.4;
 }
 
-.custom-umbrella-footer__logo span {
+.custom-umbrella-footer__logo-text span {
   display: block;
   color: #ddb3b1;
 }
@@ -608,34 +565,17 @@ body {
   padding-bottom: 30px;
 }
 
-.footer__links {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  color: #fff;
-}
-
-.footer__link {
-  width: fit-content;
+.custom-umbrella-footer__brands {
   display: flex;
   align-items: center;
-  gap: 10px;
-  color: rgba(255, 255, 255, 0.65);
-  transition: all 0.25s ease-in-out;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
+  gap: 30px;
+  margin-top: 40px;
 }
 
-.footer__link:hover {
-  color: #ddb3b1;
-}
-
-.footer__link img {
+.custom-umbrella-footer__brand {
+  display: block;
   width: fit-content;
-  height: 20px;
-  margin-bottom: -3px;
+  height: 100px;
 }
 
 .custom-umbrella-footer__contact h3 {
@@ -693,6 +633,7 @@ body {
   gap: 16px;
   padding-left: 0;
   margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .custom-umbrella-footer__social-links li a {
